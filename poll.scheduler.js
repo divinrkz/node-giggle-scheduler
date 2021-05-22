@@ -15,7 +15,7 @@ const scheduler = async () => {
                 console.log('Case not found')
         }
 
-        await Scheduler.deleteOne({_id: data._id})
+
         await scheduler()
     }
 }
